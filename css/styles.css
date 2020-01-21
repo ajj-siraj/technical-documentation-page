@@ -1,25 +1,69 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-.side-section{
-    height:100%;
+p {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+.side-section {
+    height: 100%;
+    overflow-y: scroll;
+    position: fixed;
+}
+
+.side-section-mini{
+    max-height:300px;
     overflow-y:scroll;
-    position:fixed;
+}
+.main-doc {
+    /* position: absolute; */
+    /* top: 400px; */
+    padding: 20px;
+    line-height: 2rem;
 }
 
-.main-doc{
-    /* margin:20px; */
-    position:absolute;
-    left:25%;
-}
-
-.code-segment{
-    background-color:#ebe9e9;
-    padding:15px;
+.code-segment {
+    background-color: #ebe9e9;
+    padding: 15px;
+    margin-left: 20px;
 }
 
 code {
-    /* display: block; */
+    display: block;
     white-space: pre-line;
-  }
+}
+
+/* media queries */
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* .main-doc{
+        position: static;
+    } */
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main-doc{
+        position:absolute;
+        left: 25%;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+ 
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+   
+}
