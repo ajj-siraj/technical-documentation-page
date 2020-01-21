@@ -1,0 +1,17 @@
+{
+  "name": "technicalpage",
+  "version": "1.0.0",
+  "description": "Technical Documentation Page",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "Siraj",
+  "license": "ISC"
+}
