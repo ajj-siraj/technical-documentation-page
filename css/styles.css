@@ -1,0 +1,11 @@
+.side-section{
+    height:100%;
+    overflow-y:scroll;
+    position:fixed;
+}
+
+.main-section{
+    margin:20px;
+    position:absolute;
+    left:15%;
+}
