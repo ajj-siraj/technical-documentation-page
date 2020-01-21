@@ -1,11 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .side-section{
     height:100%;
     overflow-y:scroll;
     position:fixed;
 }
 
-.main-section{
-    margin:20px;
+.main-doc{
+    /* margin:20px; */
     position:absolute;
-    left:15%;
+    left:25%;
 }
+
+.code-segment{
+    background-color:#ebe9e9;
+    padding:15px;
+}
+
+code {
+    /* display: block; */
+    white-space: pre-line;
+  }
